@@ -1,0 +1,3 @@
+cd C:\Users\ee3ta\Documents\GitHub\ragnar-main
+docker build . -t ragnar-llm
+docker run -it -v "C:\Users\ee3ta\Documents\GitHub\ragnar-main\ragnar\documents:/code/ragnar/documents" --rm --network=host ragnar-llm
